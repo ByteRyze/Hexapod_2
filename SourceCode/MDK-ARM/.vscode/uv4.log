@@ -1,0 +1,55 @@
+Load "app_test\\Hexapod.axf" 
+* JLink Info: Device "CORTEX-M7" selected.
+Set JLink Project File to "e:\Áù×ã»úÆ÷ÈË\Hexapod\SourceCode\MDK-ARM\JLinkSettings.ini"* JLink Info: Device "CORTEX-M7" selected.
+
+JLink info:
+------------
+DLL: V6.30h, compiled Mar 16 2018 18:02:51
+Firmware: J-Link V9 compiled May  7 2021 16:26:12
+Hardware: V9.70
+S/N : 59701273 
+Feature(s) : RDI, GDB, FlashDL, FlashBP, JFlash 
+
+* JLink Info: Found SW-DP with ID 0x6BA02477
+* JLink Info: Scanning AP map to find all available APs
+* JLink Info: AP[3]: Stopped AP scan as end of AP map has been reached
+* JLink Info: AP[0]: AHB-AP (IDR: 0x84770001)
+* JLink Info: AP[1]: AHB-AP (IDR: 0x84770001)
+* JLink Info: AP[2]: APB-AP (IDR: 0x54770002)
+* JLink Info: Iterating through AP map to find AHB-AP to use
+* JLink Info: AP[0]: Core found
+* JLink Info: AP[0]: AHB-AP ROM base: 0xE00FE000
+* JLink Info: CPUID register: 0x411FC271. Implementer code: 0x41 (ARM)
+* JLink Info: Found Cortex-M7 r1p1, Little endian.
+* JLink Info: FPUnit: 8 code (BP) slots and 0 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl[0] @ E00FE000
+* JLink Info: ROMTbl[0][0]: E00FF000, CID: B105100D, PID: 000BB4C7 ROM Table
+* JLink Info: ROMTbl[1] @ E00FF000
+* JLink Info: ROMTbl[1][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7
+* JLink Info: ROMTbl[1][1]: E0001000, CID: B105E00D, PID: 000BB002 DWT
+* JLink Info: ROMTbl[1][2]: E0002000, CID: B105E00D, PID: 000BB00E FPB-M7
+* JLink Info: ROMTbl[1][3]: E0000000, CID: B105E00D, PID: 000BB001 ITM
+* JLink Info: ROMTbl[0][1]: E0041000, CID: B105900D, PID: 001BB975 ETM-M7
+* JLink Info: ROMTbl[0][2]: E0043000, CID: B105900D, PID: 004BB906 CTI
+* JLink Info: Cache: Separate I- and D-cache.
+* JLink Info: I-Cache L1: 16 KB, 256 Sets, 32 Bytes/Line, 2-Way
+* JLink Info: D-Cache L1: 16 KB, 128 Sets, 32 Bytes/Line, 4-Way
+ROMTableAddr = 0xE00FE000
+* JLink Info: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+* JLink Info: Reset: Reset device via AIRCR.SYSRESETREQ.
+
+Target info:
+------------
+Device: STM32H750VBTx
+VTarget = 3.005V
+State of Pins: TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 8
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+
+Erase Done.Programming Done.Verify OK.* JLink Info: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+* JLink Info: Reset: Reset device via AIRCR.SYSRESETREQ.
+Application running ...
+Flash Load finished at 23:17:51
